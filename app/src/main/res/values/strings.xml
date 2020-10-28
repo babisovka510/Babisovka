@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Babišovka</string>
+
+    <string name="eanverze_soubor">EANverze.txt</string>
+    <string name="ean13agro_soubor">EAN13agro.txt</string>
+    <string name="ean13neagro_soubor">EAN13neagro.txt</string>
+    <string name="ean8agro_soubor">EAN8agro.txt</string>
+    <string name="ean8neagro_soubor">EAN8neagro.txt</string>
+    <string name="privatelabel_soubor">private{0}.txt</string>
+
+    <string name="eanverze_default">EANverzeDefault.txt</string>
+    <string name="ean13agro_default">EAN13agroDefault.txt</string>
+    <string name="ean13neagro_default">EAN13neagroDefault.txt</string>
+    <string name="ean8agro_default">EAN8agroDefault.txt</string>
+    <string name="ean8neagro_default">EAN8neagroDefault.txt</string>
+    <string name="privatelabel_default">private{0}.txt</string>
+
+    <string name="eanverze_url">https://api.npoint.io/5bd8a928a1ab49f5bf54</string>
+    <string name="ean13agro_url">https://api.npoint.io/787fcb1034ae1267704b</string>
+    <string name="ean13neagro_url">https://api.npoint.io/d9b2e38d54f80a17b3a6</string>
+    <string name="ean8agro_url">https://api.npoint.io/930f3ecd2c04f04a0b36</string>
+    <string name="ean8neagro_url">https://api.npoint.io/28601550eca10717067f</string>
+    <string name="privatelabelAlbert_url">https://api.npoint.io/b73de7e440f376f0a5e1</string>
+    <string name="privatelabelBilla_url">https://api.npoint.io/c01ed3a3f4a2eb957516</string>
+    <string name="privatelabelGlobus_url">https://api.npoint.io/8151650758dcbc1d08c0</string>
+    <string name="privatelabelKaufland_url">https://api.npoint.io/9951aa444f1e8bc75df4</string>
+    <string name="privatelabelLidl_url">https://api.npoint.io/779941dbe972da8c8d8f</string>
+    <string name="privatelabelNorma_url">https://api.npoint.io/91f12e3d2005b55a2b74</string>
+    <string name="privatelabelPenny_url">https://api.npoint.io/cef263d4cc5aae2cbb9b</string>
+    <string name="privatelabelTesco_url">https://api.npoint.io/1f5cfddc28407c80ed3e</string>
+
+
+    <string name="title_activity_main">Babišovka</string>
+    <string name="use_flash">Osvětlení</string>
+
+    <string name="main_about_title">O aplikaci</string>
+    <string name="main_about_version">Verze: </string>
+    <string name="main_about_contact">Kontakt: </string>
+
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Upozornění: aplikace potřebuje pro čtení čárových kódů přístup ke kameře.</string>
+    <string name="no_camera_permission">Aplikace nemá právo k přístupu ke kameře. Bez toho bohužel nemůže číst čárové kódy..\n\nAplikace bude ukončena.</string>
+    <string name="low_storage_error">Zařízení nemá dostatek volné paměti, nelze spustit funkci načítání čárových kódů.</string>
+
+</resources>

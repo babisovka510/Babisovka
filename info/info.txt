@@ -1,0 +1,11 @@
+Babisovka je Android aplikace, ktera slouzi k nacitani carovych kodu ze zbozi a rozlisovani, jestli je vyrobce soucasti Holdingu Agrofert.
+
+Babisovka je projekt sestaveny v Android Studiu 4.0.1. Zdrojove kody nejsou na programatorskeho Oskara, vznikly s cilem vytvorit funkcni aplikaci v kratkem case.
+Kdyby mel projekt vzniknout znovu, asi by uz mel jinou architekturu - zejmena by byla pouzita SQLite databaze namisto seznamu List<> ulozenych v pameti. Ty jsou sice rychle, ale s pestrosti carovych kodu vyrobcu a retezcu pracuji dost tezkopadne.
+
+Zdrojove kody muze kdokoliv pouzit zcela volne k vytvoreni vlastni aplikace. Pouze je dobre zmenit namespace, dat ji vlastni nazev, ikonku a logo.
+
+Taky je dobre aktualizovat soubory ve slozce assets novejsimi daty (jsou to kopie dat, ke kterym se aplikace pripojuje kdyz stahuje aktualni data, tj. z adresy https://api.npoint.io/.....). Informace o datech lze ziskat ve facebookove skupine SorryYako, https://www.facebook.com/groups/3382356618517340
+
+Zdrojove kody byly nahrane na GitHub pod jednorazovou emailovou adresou a uložené pod nakopirovanym nahodne vygenerovanym a nasledne smazanym silným heslem.
+Z tohoto duvodu nelze v souborech delat zadne upravy, uz navzdy zustanou tak jak jsou, vcetne pripadnych chyb. Je pouze mozne pridat novou verzi na GitHub pod novym nazvem. Sledujte tedy projekty Babisovka2, Babisovka3, atd..

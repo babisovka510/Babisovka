@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_nastaveni" android:title="Nastavení" />
+    <item android:id="@+id/menu_aktualizace" android:title="Aktualizace dat" />
+    <item android:id="@+id/menu_oaplikaci" android:title="O aplikaci" />
+    <item android:id="@+id/menu_devMenu0" android:title="________________" android:visible="false" />
+    <item android:id="@+id/menu_devMenu1" android:title="Obnovit LHr nastavení" android:visible="false" />
+    <item android:id="@+id/menu_devMenu2" android:title="Smazat soubory" android:visible="false" />
+</menu>

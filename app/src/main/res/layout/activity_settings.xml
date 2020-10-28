@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fadeScrollbars="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:text="Načtení kódu" />
+
+            <Switch
+                android:id="@+id/swPipnout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ulozitZmenu"
+                android:paddingStart="60dp"
+                android:paddingLeft="60dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:text="při načtení kódu pípnout"
+                android:visibility="visible"
+                tools:checked="true" />
+
+            <Switch
+                android:id="@+id/swZavibrovat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="ulozitZmenu"
+                android:paddingStart="60dp"
+                android:paddingLeft="60dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:text="při načtení kódu zavibrovat"
+                tools:checked="false" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp"
+                android:text="Otáčení displeje při načítání kódů" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:paddingStart="60dp"
+                android:paddingRight="20dp"
+                android:paddingEnd="20dp">
+
+                <RadioButton
+                    android:id="@+id/rb_otaceni_neblokovat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:onClick="ulozitZmenu"
+                    android:paddingTop="15dp"
+                    android:text="povolit otáčení" />
+
+                <RadioButton
+                    android:id="@+id/rb_otaceni_portrait"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:onClick="ulozitZmenu"
+                    android:paddingTop="15dp"
+                    android:text="displej vždy nastojato" />
+
+                <RadioButton
+                    android:id="@+id/rb_otaceni_landscape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:onClick="ulozitZmenu"
+                    android:paddingTop="15dp"
+                    android:text="displej vždy naležato" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

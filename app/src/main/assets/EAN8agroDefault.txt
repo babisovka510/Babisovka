@@ -1,0 +1,1 @@
+{"info":"Čárové kódy EAN-8 firem Agrofertu","firmy":[{"kod":"8591951","nazev":"Krahulík-MASOZÁVOD Krahulčí","pocet":10},{"kod":"8592618","nazev":"Kostelecké uzeniny"}]}
